@@ -33,7 +33,7 @@ public class Auto_Main{
 		 return arrayList;
 	}
 	
-	public static void auto_main(String[] args) {
+	public static void main(String[] args) {
 		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);
 		String _autoalfabeto = "";
@@ -47,10 +47,10 @@ public class Auto_Main{
 		
 		do{
 			
-			System.out.println("\n *********MENU******");
+			System.out.println("\n    *********MENU*********");
 			System.out.println("   1 - Criar Autômato ");
 			System.out.println("   0 - Sair           ");
-			System.out.println("   ********************\n");
+			System.out.println("   ***********************\n");
             System.out.print("Escolha uma opção: ");
 			opc = scanner.nextInt();
 			System.out.print("\n");
