@@ -35,7 +35,7 @@ public class Automato_ini{
 	}
 	
 		public boolean validacao_palavra(String[] fita){
-			String auto_estadoAtual = this.getAuto_EstadoInicial();
+			String auto_estadoAtual = this.getAutoEstadoInicial();
 			String transicao = "";
 			for(int i = 0; i < fita.length; i++){
 				transicao = existeTransicao( auto_estadoAtual, fita[i]);
@@ -52,6 +52,48 @@ public class Automato_ini{
 				return false;
 			}
 			
+		}
+		
+		public ArrayList<String> getAutoAlfabeto() {
+			return auto_Alfabeto;
+		}
+
+		public void setAutoAlfabeto(ArrayList<String> auto_Alfabeto) {
+			this.auto_Alfabeto = auto_Alfabeto;
+		}
+
+		public ArrayList<String> getAutoEstados() {
+			return auto_Estados;
+		}
+
+		public void setAutoEstados(ArrayList<String> auto_Estados) {
+			this.auto_Estados = auto_Estados;
+		}
+
+		public String getAutoEstadoInicial() {
+			return auto_EstadoInicial;
+		}
+
+		public void setAutoEstadoInicial(String auto_EstadoInicial) {
+			this.auto_EstadoInicial = auto_EstadoInicial;
+		}
+
+		public String[][] getAutoTabela() {
+			return auto_Tabela;
+		}
+
+		public void setAutoTabela(String[][] auto_Tabela) {
+			this.auto_Tabela = auto_Tabela;
+		}
+
+
+		public ArrayList<String> getAutoEstadosFinais() {
+			return auto_EstadosFinais;
+		}
+
+
+		public void setAutoEstadosFinais(ArrayList<String> auto_EstadosFinais) {
+			this.auto_EstadosFinais = auto_EstadosFinais;
 		}
 		
 		
