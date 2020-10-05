@@ -25,4 +25,4 @@ para cada possivel caminho com letra do alfabeto
 no final ira inserir a palavra para verificar se ela sera aceita como estado final
 ou rejeitada caso nao caia no estado final
 
-segue imagem com melhor exemplificação 
+segue imagem dentro do repositorio como exemplo visual do que deve ser feito
